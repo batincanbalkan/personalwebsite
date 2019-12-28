@@ -87,7 +87,7 @@ ul.navbar-nav a:hover {
 /* end of landing page */
 @media (max-width: 768px) {
     .caption {
-        top: 20%;
+        top: 30%;
         font-size: 20px;
     }
     #summary {
