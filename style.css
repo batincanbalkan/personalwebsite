@@ -51,7 +51,7 @@ ul.navbar-nav a:hover {
 
 /* start of landing page */
 .home-inner {
-    background-image:url(/Users/batincanbalkan/Desktop/personalweb/resources/background.jpg);
+    background-image:url(resources/background.jpg);
 }
 .caption {
     width: 100%;
