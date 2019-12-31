@@ -115,6 +115,9 @@ ul.navbar-nav a:hover {
         margin-top: 0%;
         font-size: 15px!important;
     }
+    .list {
+      margin-top: 100%;
+    }
 }
 #col1, #col2 {
     border: 2px solid black!important;
@@ -159,10 +162,6 @@ ul.navbar-nav a:hover {
     padding: unset;
     width: 100%;
 
-}
-#row2col1 {
-    border: 2px solid white;
-    height: 100vh;
 }
 /* typewriter effect imported */
 .typewrite {
@@ -320,7 +319,7 @@ ul.navbar-nav a:hover {
     color: black;
     height: 80px;
     width: 80px;
-    background-color: white;
+    background-color: rgb(0,255,255);
     border-radius: 25%;
     text-align: center;
     transform: translateY(300px);
@@ -342,5 +341,81 @@ ul.navbar-nav a:hover {
     transform: translateY(0px);
     transition: all 0.5s 0.8s;
 }
-
 /* end of image hover effect */
+
+/*start of list for job experience */
+#row2col1 {
+  border: 2px solid white;
+  height: 100vh;
+}
+.list h2{
+  font-size: 27px;
+  margin-top: 60%;
+  color: white;
+  background-color: rgb(0,204,204);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 5%;
+  margin-bottom: 0%;
+}
+.list{
+  width: 100%;
+  border-bottom: 20px solid rgb(0,204,204);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.list ul {
+  list-style-type: none;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 0px;
+}
+.list ul li {
+  margin-left: -13.5%;
+  padding: 5%;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  color: rgb(0,204,204);
+  transition: transform 0.5s;
+  font-size: 20px;
+}
+.list ul span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background:rgb(0,204,204);
+  color: white;
+  display:inline-block;
+  border-radius: 50%;
+  margin-right: 3%;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 3%;
+}
+.list ul li:hover {
+  transform: scale(1.1);
+  z-index: 100;
+  background: rgb(0,204,204);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  color: white ;
+  opacity: 1.0!important;
+}
+.list ul li:hover span {
+  background: white;
+  color:rgb(0,204,255);
+}
+.list ul:hover li {
+  opacity: 0.2;
+}
+/* job experience box start */
+#box {
+  background-color: yellow;
+  width: 70%;
+  height: 40%;
+  margin-top:27%;
+  margin-left: 15%;
+  color: black;
+}
+/*end of job experience box */
