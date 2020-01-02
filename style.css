@@ -411,11 +411,14 @@ ul.navbar-nav a:hover {
 }
 /* job experience box start */
 #box {
-  background-color: yellow;
   width: 70%;
   height: 40%;
   margin-top:27%;
   margin-left: 15%;
   color: black;
+  justify-content: center;
+  text-align:left;
+  color: rgb(0,255,255);
+  font-weight: bold;
 }
 /*end of job experience box */
