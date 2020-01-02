@@ -119,7 +119,7 @@ ul.navbar-nav a:hover {
       margin-top: 100%;
     }
 }
-#col1, #col2 {
+#col1, #col2, #col3 {
     border: 2px solid black!important;
     height: 100vh;
 }
@@ -422,3 +422,38 @@ ul.navbar-nav a:hover {
   font-weight: bold;
 }
 /*end of job experience box */
+.row3 {
+    height: 172vh;
+    border: 2px solid white;
+}
+.row3col1 {
+    border: 2px dotted purple;
+    height: 33vh;
+    margin-top: 6%;
+}
+.row3col2 {
+    border: 2px dotted orange;
+    height: 33vh;
+    margin-top: 20%;
+    margin-left: 0%;
+}
+.row3col3 {
+    border: 2px dotted pink;
+    height: 33vh;
+    margin-left: 16.5%;
+    margin-top: -2%;
+}
+#headerofpastprojects {
+    margin-top: 9%;
+    margin-left: 18%;
+}
+.row3col4 {
+    margin-left: 58%;
+    height: 33vh;
+    border: 2px double black;
+}
+.row3col5 { 
+    margin-left: 0%;
+    height: 33vh;
+    border: 2px double yellow;
+}
