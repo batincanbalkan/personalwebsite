@@ -152,7 +152,7 @@ ul.navbar-nav a:hover {
     margin-top: 47%;
     padding-right: 70px;
 }
-#universitylink {
+.orangelink {
     color:rgb(204, 102, 0);
     text-shadow: 0.1rem 0.1rem 0.8rem black!important;
 }
@@ -161,7 +161,6 @@ ul.navbar-nav a:hover {
     height: 100vh;
     padding: unset;
     width: 100%;
-
 }
 /* typewriter effect imported */
 .typewrite {
@@ -430,30 +429,45 @@ ul.navbar-nav a:hover {
     border: 2px dotted purple;
     height: 33vh;
     margin-top: 6%;
+    margin-left: 5%;
 }
 .row3col2 {
     border: 2px dotted orange;
     height: 33vh;
     margin-top: 20%;
-    margin-left: 0%;
+    margin-left: 5%;
 }
 .row3col3 {
     border: 2px dotted pink;
     height: 33vh;
-    margin-left: 16.5%;
-    margin-top: -2%;
+    margin-left: 5%;
+    margin-top: 1.5%;
 }
 #headerofpastprojects {
     margin-top: 9%;
     margin-left: 18%;
 }
 .row3col4 {
-    margin-left: 58%;
+    margin-left: 53%;
     height: 33vh;
     border: 2px double black;
+
 }
 .row3col5 { 
-    margin-left: 0%;
+    margin-left: 5%;
     height: 33vh;
     border: 2px double yellow;
+}
+#inkscapelogo {
+    margin-left: 90%;
+    margin-top: -30%;
+}
+#mcgilllogo {
+    margin-left: 37%;
+}
+.row3col1:hover, .row3col2:hover, .row3col3:hover, .row3col4:hover, .row3col5:hover {
+    transform: scale(1.2);
+}
+.con3 {
+    border: 2px solid blue;
 }
