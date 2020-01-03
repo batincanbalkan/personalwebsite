@@ -106,7 +106,7 @@ ul.navbar-nav a:hover {
         width: 50%!important;
         position: unset;
         right: unset;  
-        left: 25%;
+        left: 23%!important;
         top: 50px;
     }
     .paragraph {
@@ -574,7 +574,7 @@ ul.navbar-nav a:hover {
   }
   #githublink {
         position:absolute;
-        top:35% ;
+        top:37% ;
         left:13% ;
         z-index:1;
         display:block;
