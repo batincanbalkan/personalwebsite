@@ -584,3 +584,10 @@ ul.navbar-nav a:hover {
         color: rgb(0,204,204);
     }
 /*end of animated border */
+.lastcol {
+    height: 100vh;
+    border: 2px white double;
+}
+.lastrow {
+    border: 2px red dotted;
+}
