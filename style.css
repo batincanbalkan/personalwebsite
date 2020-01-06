@@ -591,3 +591,8 @@ ul.navbar-nav a:hover {
 .lastrow {
     border: 2px red dotted;
 }
+#on {
+    position: fixed;
+    right: 3%; 
+    bottom: 0%;
+}
