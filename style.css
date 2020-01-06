@@ -595,6 +595,8 @@ ul.navbar-nav a:hover {
     position: fixed;
     right: 3%; 
     bottom: 3%;
-    z-index: 100;
-
+    z-index: 1;
+}
+#on:hover {
+    transform: scale(1.2);
 }
