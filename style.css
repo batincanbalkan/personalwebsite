@@ -600,3 +600,21 @@ ul.navbar-nav a:hover {
 #on:hover {
     transform: scale(1.2);
 }
+#sidebar {
+    position:fixed;
+    left: 4%;
+    bottom: 0px;
+    border: 1px solid white;
+    height: 100px;
+}
+#sidebarLinkItems {
+    list-style-type: none;
+    margin-top: -240%;
+    position: fixed;
+}
+#item1, #item2, #item3, #item4 {
+    font-size: 25px; 
+    color: white;
+    height: 40px;
+    width: 40px;
+}
