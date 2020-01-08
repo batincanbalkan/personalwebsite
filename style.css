@@ -631,10 +631,11 @@ ul.navbar-nav a:hover {
 #item4 {
     padding-bottom: 10px;
 }
-#item1:hover {
+#item1:hover, #item2:hover, #item3:hover,#item4:hover{
     transform: scale(1.1);
+    color: rgb(204, 102, 0);
 }
-#item2:hover {
+/*#item2:hover {
     transform: scale(1.1);
 }
 #item3:hover {
