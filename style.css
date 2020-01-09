@@ -120,21 +120,22 @@ ul.navbar-nav a:hover {
     }
 }
 #col1, #col2, #col3 {
-    border: 2px solid black!important;
+   /* border: 2px solid black!important; */
     height: 100vh;
 }
 #container1 {
-    border: 2px solid red;
+   /* border: 2px solid red; */
     height: 100vh;
 }
 .row {
-    border: 2px dotted purple;
+   /* border: 2px dotted purple; */
 }
 #about {
     color: black;
     text-shadow: 0.1rem 0.1rem 0.8 black!important;
     color: rgb(0,255,255);
-    margin-top: 100px;
+    margin-top: 30px;
+    height: 100vh;
 }
 #headaboutme{
     text-shadow: 0.1rem 0.1rem 0.8rem black!important;
@@ -157,7 +158,7 @@ ul.navbar-nav a:hover {
     text-shadow: 0.1rem 0.1rem 0.8rem black!important;
 }
 #con2 {
-    border: 2px solid red;
+    /*border: 2px solid red; */
     height: 100vh;
     padding: unset;
     width: 100%;
@@ -344,7 +345,7 @@ ul.navbar-nav a:hover {
 
 /*start of list for job experience */
 #row2col1 {
-  border: 2px solid white;
+  /*border: 2px solid white; */
   height: 100vh;
 }
 .list h2{
@@ -423,7 +424,7 @@ ul.navbar-nav a:hover {
 /*end of job experience box */
 .row3 {
     height: 172vh;
-    border: 2px solid white;
+    /*border: 2px solid white; */
 }
 .row3col1 {
     border: 2px dotted purple;
@@ -432,13 +433,13 @@ ul.navbar-nav a:hover {
     margin-left: 5%;
 }
 .row3col2 {
-    border: 2px dotted orange;
+    /*border: 2px dotted orange; */
     height: 33vh;
     margin-top: 20%;
     margin-left: 5%;
 }
 .row3col3 {
-    border: 2px dotted pink;
+    /*border: 2px dotted pink;*/
     height: 33vh;
     margin-left: 5%;
     margin-top: 1.5%;
@@ -450,13 +451,13 @@ ul.navbar-nav a:hover {
 .row3col4 {
     margin-left: 53%;
     height: 33vh;
-    border: 2px double black;
+    /*border: 2px double black;*/
 
 }
 .row3col5 { 
     margin-left: 5%;
     height: 33vh;
-    border: 2px double yellow;
+    /*border: 2px double yellow;*/
 }
 #inkscapelogo {
     margin-left: 0%;
@@ -469,7 +470,7 @@ ul.navbar-nav a:hover {
     transform: scale(1.1);
 }
 .con3 {
-    border: 2px solid blue;
+    /*border: 2px solid blue; */
 }
 /*animated border */
   .box {
@@ -586,10 +587,10 @@ ul.navbar-nav a:hover {
 /*end of animated border */
 .lastcol {
     height: 100vh;
-    border: 2px white double;
+    /*border: 2px white double; */
 }
 .lastrow {
-    border: 2px red dotted;
+    /*border: 2px red dotted; */
 }
 #on {
     position: fixed;
