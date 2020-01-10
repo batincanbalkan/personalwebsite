@@ -127,9 +127,6 @@ ul.navbar-nav a:hover {
    /* border: 2px solid red; */
     height: 100vh;
 }
-.row {
-   /* border: 2px dotted purple; */
-}
 #about {
     color: black;
     text-shadow: 0.1rem 0.1rem 0.8 black!important;
@@ -469,9 +466,7 @@ ul.navbar-nav a:hover {
 .row3col1:hover, .row3col2:hover, .row3col3:hover, .row3col4:hover, .row3col5:hover {
     transform: scale(1.1);
 }
-.con3 {
-    /*border: 2px solid blue; */
-}
+
 /*animated border */
   .box {
     position: absolute;
@@ -589,9 +584,6 @@ ul.navbar-nav a:hover {
     height: 100vh;
     /*border: 2px white double; */
 }
-.lastrow {
-    /*border: 2px red dotted; */
-}
 #on {
     position: fixed;
     right: 3%; 
@@ -636,12 +628,6 @@ ul.navbar-nav a:hover {
     transform: scale(1.1);
     color: rgb(204, 102, 0);
 }
-/*#item2:hover {
-    transform: scale(1.1);
-}
-#item3:hover {
-    transform: scale(1.1);
-}
-#item4:hover {
-    transform: scale(1.1);
+#navbar .active {
+    color:rgb(204, 102, 0)!important;
 }
