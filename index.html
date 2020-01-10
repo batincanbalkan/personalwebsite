@@ -115,17 +115,18 @@
 		<div class="col-md-4 row2col1" id="row2col1">
 			<div class="list">
 			<h2>Internship Experience</h2>
-			<ul onclick="CngMess(event, 'box');">
-				<li><span>1</span>Getir</li>
-				<li><span>2</span>DorukNet</li>
-				<li><span>3</span>Koc Holding</li>
+			<ul>
+				<li onclick="getir()"><span>1</span>Getir</li>
+				<li onclick="doruknet()"><span>2</span>DorukNet</li>
+				<li onclick="kocholding()"><span>3</span>Koc Holding</li>
 			</ul>
 			</ul>
 			</div>
 		</div>
 		<div class="col-md-8 row2col2" id="row2col2">
-			<div id="box">
-				<div id="getir">Engineering Intern July 2018 – September 2018 <br>
+		<div id="box">
+			<div id="placeholder" style="visibility: visible;">
+				Engineering Intern July 2018 – September 2018 <br>
 				Getir, Istanbul, Turkey 
 				<ul>
 				<li> In a team of 4, coded a part of the new update using JavaScript.</li>
@@ -133,11 +134,36 @@
 				<li>Methodically utilized case modeling during system design and implementation to demonstrate thorough comprehension of
 				stakeholder requirements.</li>
 				<li>Contributed to recording a video of functionality for AppStore update.</li>
-			</ul>
-		</div> 
+				</ul>
+			</div>
+			<div id="getir" style="visibility: hidden;">Engineering Intern July 2018 – September 2018 <br>
+					Getir, Istanbul, Turkey 
+					<ul>
+					<li> In a team of 4, coded a part of the new update using JavaScript.</li>
+					<li>Contributed to content creation as a technical writer for design documentation.</li>
+					<li>Methodically utilized case modeling during system design and implementation to demonstrate thorough comprehension of
+					stakeholder requirements.</li>
+					<li>Contributed to recording a video of functionality for AppStore update.</li>
+					</ul>
+			</div>
+			<div id="DorukNet" style="visibility: hidden;">
+				Software Engineering Intern August 2015 – September 2015 <br> 
+				DorukNet, Istanbul, Turkey <br>
+				<ul>
+				<li>Learned how to document a project from a lead engineer and documented a part of backend code.</li>
+				<li>Learned how to work as a group on a huge project, and how to use GitHub'</li>
+			</div>
+			<div id="KocHolding" style="visibility: hidden;">
+				Software Engineering Intern July 2015 – August 2015 <br>
+				Koc Holding, Istanbul, Turkey <br>
+				<ul>
+				<li>Helped the researches with their researches.</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	</div>
+</div>
 </div>
 <!-- End Work Experience Section -->
 <!-- Start Projects Section-->
@@ -252,6 +278,7 @@
 <script src="iframeshower.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="companies.js"></script>
 <!--- End of Script Source Files -->
 
 </body>
